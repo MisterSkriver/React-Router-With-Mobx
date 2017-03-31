@@ -36,7 +36,7 @@ class BookStore {
     }
     @action
     deleteBook(book){
-        this._books.pop(book);
+            this._books.remove(book)
     }
 
     @computed

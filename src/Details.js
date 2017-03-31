@@ -12,7 +12,6 @@ export default class Details extends React.Component {
       return index === Number(id);
     })[0];
 
-
     return (
       <div>
         <h3 style={{color: "steelblue"}}>Detailed info for the title: {book.title}</h3>
